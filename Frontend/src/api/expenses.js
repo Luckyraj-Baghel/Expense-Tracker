@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/expenses';
+const API_URL = 'https://expense-tracker-backend-4bp6.onrender.com/api/expenses';
 
 const getAuthHeader = () => {
   const user = JSON.parse(localStorage.getItem('user'));
